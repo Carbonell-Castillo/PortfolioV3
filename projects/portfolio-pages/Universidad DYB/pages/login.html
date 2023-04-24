@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <!--CDN  Boostrap-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+ <!-- Contraseña enlaces -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <div class="jumbotron" id="ingreso">
+        <section id="datos">
+          <div class="row">
+                <div class="col-sm-6">
+                    <img src="../images/logo3.png" id="logoregistro">
+                    <h2 id="welcome">Welcome Back</h2>
+                    <p id="pwelcome">Please enter your email and password</p>
+                    <input id="user" name="user" placeholder="Email">
+    
+                    <input id="password" type="Password" placeholder="Password">
+                    <button id="show_password" type="button" onclick="mostrarPassword()"><span class="fa fa-eye-slash icon"></span></button>
+    
+                    <section class="error">
+                        <img src="../images/alerta.png" id="alerta">
+                    <section id="error">
+                        <br>
+                        <center><h1>Warning!</h1></center>
+                        <center><p>Contraseña o Usuario Incorrecto</p></center>
+                    </section>          
+                   </section>
+               
+                    
+                    <button id="login">Login Now</button> 
+    
+                    <button id="create">Create Account</button> 
+    
+                    <p id="or">or</p>
+    
+                    <img src="../images/google.png" id="google">
+                    <img src="../images/facebook.png" id="face">
+                    <img src="../images/twitter.png" id="twitter">
+    
+                </div>
+    
+                <div class="col-sm-6">
+                    <img src="../images/fondodatos.png" id="fondodatos">
+                </div>
+    
+        </section>	
+        </div>		
+</body>
+</html>
+<script src="../JavaScript/logic.js"></script>

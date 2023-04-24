@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neer youkkk</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <script>
+        let container=document.getElementById('container');
+        window.onmousemove = function(e){
+            let x = -e.clientX/5,
+             y = - e.clientY/5;
+             container.style.backgroundPositionX = x + 'px';
+             container.style.backgroundPositionX = y + 'px';
+        }
+
+    </script>k
+    <div class="container" id="container">
+        <div class="content">
+            <h2>404</h2>
+            <h4>Opss! La pagina no esta en funcion</h4>
+            <p>La pagina esta siendo actualizada, lamentamos los inconvenientes, muy pronto estara en funcion.</p>
+            <a href="#">Volver a cargar</a>
+            
+        </div>
+    </div>
+    
+</body>
+</html>

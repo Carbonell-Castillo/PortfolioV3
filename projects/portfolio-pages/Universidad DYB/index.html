@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYB</title>
+    
+     <!--CDN  Boostrap-->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+       integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<!-- Contraseña enlaces -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="../Scripts/style.js"></script>
+        <link rel="stylesheet" href="css/loading.css">
+<link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <section class="inicio">
+            <a href="../../project-DYBUniversity.html">Inicio</a>
+        </section>
+        <script>
+            $(document).ready(function() {
+    $('a[href^="#"]').click(function() {
+      var destino = $(this.hash);
+      if (destino.length == 0) {
+          destino = $('a[name="' + this.hash.substr(1) + '"]');
+      }
+      if (destino.length == 0) {
+        destino = $('html');
+      }
+      $('html, body').animate({ scrollTop: destino.offset().top }, 500);
+      return false;
+    });
+  });
+        </script>
+
+
+        <script>
+            function toggle(){
+        let header = document.querySelector("#header");
+        header.classList.toggle("active");
+        let toggle = document.querySelector("#toggle");
+        toggle.classList.toggle("active");
+    }
+
+        </script>
+        <section class="loading" id="loading">
+       
+            <div class="boxes">
+                <div class="box">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="box">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="box">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="box">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            
+            <!-- dribbble -->
+        </section>
+        <section class="all" id="all">
+
+            <nav class="navbar" id="header">
+                <!-- logo -->
+                <a href="#" class="Logo">D&B</a>
+                <!-- menu -->
+                <ul>
+                    <li><a href="#home" onclick="toggle()">Inicio</a></li>
+                    <li><a href="#CbAplicar" onclick="toggle()">Aplicar</a></li>
+                    <li><a href="#galeria" onclick="toggle()">Galería</a></li>
+                    
+                    <li><a href="#contact" onclick="toggle()">Contacto</a></li>
+                </ul>
+                <div class="toggle" id="toggle" onclick="toggle()"></div>
+            </nav>
+            <!-- <nav class="navbar navbar-expand-lg " id="navs">
+                <a class="navbar-brand" href="#">
+                    <img src="images/delta.png" id="delta">
+                    
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav var">
+                    <a class="nav-item nav-link active" href="#" id="a-barra">Inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" id="a-barra" href="#CbAplicar">Información</a>
+                    <a class="nav-item nav-link" id="a-barra" href="#galeria">Galería</a>
+                    <a class="nav-item nav-link" id="a-barra" href="#">Iniciar Sesión</a>
+                  </div>
+                </div>
+              </nav> -->
+            <div class="contenedor">
+            <section class="container-slider">
+                <div class="slidebar">
+                    <img src="images/search.png" alt="" class="search-icon">
+                    <div class="social-links">
+                        <img src="images/fb.png" alt="">
+                        <img src="images/pt.png" alt="">
+                        <img src="images/tw.png" alt="">
+                    </div>
+                    <img src="images/info.png" alt="" class="info-icon">
+                </div>
+                <div class="msg-contenedor">
+                    <div id="slider">
+                        <div class="msg-col">
+                            <h1>¿Quienes somos?</h1>
+                            <p>Somos una Universidad llena de principios y valores, que trabaja con un equipo muy profesional, ádemas tenenmos un gran conocimiento para poderlo compartir con cada uno de nuestros estudiantes día a día y formar buenos hombres y buenas mujeres para el mundo. </p>
+                            <a href="" style="text-decoration: none;">Learn More</a>
+                        </div>
+                        <div class="msg-col">
+                            <h1>Conoce Nuestro campus</h1>
+                            <p>En nuestro campus puedes adquirir más información de como trabajamos al día de hoy y támbien podras enterarte de todas las actualizaciones al instante.</p>
+                            <a href="" style="text-decoration: none;">Learn More</a>
+                        </div>
+                        <div class="msg-col">
+                            <h1>Misión</h1>
+                            <p>La Universidad Deltas Hay, tiene como misión la mejora permanente de la sociedad a través del conocimiento. Aportar nuevo conocimiento y desarrollo tecnológico a la sociedad, en particular al tejido productivo. Formando como siempre a grandes Profesionales.</p>
+                            <a href="" style="text-decoration: none;">Learn More</a>
+                        </div>
+                        <div class="msg-col">
+                            <h1>Visión</h1>
+                            <p>Nuestra visión es ser una institución líder en el mundo, reconocida internacionalmente por su carácter innovador sobre la base de la investigación científica y aplicada, reuniendo a los más destacados estudiantes, profesores, investigadores y profesionales.</p>
+                            <a href="" style="text-decoration: none;">Learn More</a>
+                        </div>
+                    </div>
+            </section>
+            </div>
+    
+            <div class="controller">
+                <div id="line1"></div>
+                <div id="line2"></div>
+                <div id="line3"></div>
+                <div id="line4"></div>
+                <div id="active"></div>
+            </div>
+        </div>
+        <div class="jumbotron" id="CbAplicar">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="images/clase.jpeg" alt="" class="aplicar">
+                </div>
+                <div class="col-sm-6">
+                    <h1 class="text-center mt-3" id="Titulos">¿Como aplicar?</h1><br>
+                    <p class="">Para poder aplicar en cualquiera de nuestras facultades, como primer punto debes de presentarte en nuestras instalaciones con tu papelería y otros requisitos los cuales encontraras ingresando a nuestro campus.</p>
+                    <p class="">Si en dado caso no puedes asistir a nuestras instalaciones puedes inscribirte en linea y para mayor información puedes acercarte al campus, ádemas realizamos ciertas pruebas de conocimiento y una prueba psicologíca para poder conocerte más y poder explotar tu mayor rendimiento y conocimiento.</p>
+                </div>
+            </div>
+        </div> 
+        <div class="becas"><br><br><br>
+            <h1 class="text-center bold" id="Texto-sombreado2">¿Quieres obtener una beca?</h1>
+            <center><a href="" class="beca" style="text-decoration:none">Learn More</a></center>
+        </div>      
+        <div class="patrocinadores">
+           
+               
+                    <img src="images/patrocinadores/Logo-microsoft.png" alt="" class="pr">
+                    <img src="images/patrocinadores/Logo-google.png" alt="" class="logo-google">
+                    <img src="images/patrocinadores/Logo-intecap.png" alt="" class=logo-intecap">
+                    <img src="images/patrocinadores/Logo-filgua.png" alt="" class="logo-filgua">
+               
+           
+        </div>
+        <div class="jumbotron galeria" id="galeria">
+            <br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <section class="primer">
+                        
+                    <section class="text">
+                        <h2 class="text-center bold" id="Texto-sombreado">Alimentamos tus conocimientos</h2>
+                        <center><a href="" class="beca" style="text-decoration:none">Learn More</a></center>
+                    </section>
+    
+                    </section>
+                    <section class="segundo">
+                        
+                        <section class="text">
+                            <h2 class="text-center bold" id="Texto-sombreado">Con mas de 100 profesores capacitados</h2>
+                            <center><a href="" class="beca" style="text-decoration:none">Learn More</a></center>    
+                        </section>
+                    </section>
+                </div>
+                <div class="col-sm-8">
+                    <section class="video">
+    <iframe class="viddeo" src="https://www.youtube.com/embed/xwlg1FEtRO4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>
+    
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron" id="equipo">
+            <h2 class="text-center bold" style="font-size: 2.3em" id="Titulos">Nuestro Equipo de Maestros</h2><br><br>
+            <div class="card-deck">
+                <div class="card">
+                  <img class="card-img-top" src="images/maestros/maestro1.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Sociologia</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus suscipit aspernatur, ex a optio corrupti atque porro? Molestias alias vitae dignissimos laboriosam sint animi eius, voluptas, facere asperiores neque numquam?</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="images/maestros/maestro2.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Economia</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus suscipit aspernatur, ex a optio corrupti atque porro? Molestias alias vitae dignissimos laboriosam sint animi eius, voluptas, facere asperiores neque numquam?</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="images/maestros/maestro3.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Matematicas</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus suscipit aspernatur, ex a optio corrupti atque porro? Molestias alias vitae dignissimos laboriosam sint animi eius, voluptas, facere asperiores neque numquam?</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <section class="contact" id="contact">
+            <div class="container">             
+                <div class="row">
+                    <div class="col-lg-6 mx-auto">
+                        <div class="title-heading text-center"><br><br>
+                            <h2 class="text-white">Contactanos</h2>
+                            <p class="text-white">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>	
+                        </div>
+                    </div>
+                </div>  
+    
+                <div class="row justify-content-center mt-5">
+                    <div class="col-lg-6 col-md-8">
+                        <form class="form-custom">
+                            <div class="form-row mt-3">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="First name" required="">
+                                </div>
+                            </div>
+                            <div class="form-row mt-3">
+                                <div class="col">
+                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required="">
+                                </div>
+                            </div>
+                            <div class="form-row mt-3">
+                                <div class="col">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Type Message" required=""></textarea>
+                                </div>
+                            </div>
+                            <div class="form-row mt-3">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-custom w-100" id="btncontacto">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>        
+        </section>
+       
+        </section>
+</body>
+</html> 
+<script src="JavaScript/style.js"></script>

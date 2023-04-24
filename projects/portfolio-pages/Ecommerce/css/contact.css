@@ -1,0 +1,198 @@
+
+body{
+    background-color: #fff;
+}
+.container{
+    width: 100%;
+    position: relative;
+    height: 80vh;
+    top: 69px;
+    
+    background-image: url("../images/backgroundContact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container h2{
+    color: #fff;
+    font-size:2.5em;
+    text-shadow: 0px 0px 1.5px #000;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+
+}
+main{
+background-color:#fff;
+}
+.location{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 109px;
+    padding-bottom: 100px;
+    
+}
+.location h2{
+    color: #000;
+    font-size: 2em;
+    text-align: center;
+}
+.content-location{
+    display: flex;
+    padding-top: 1%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    padding-bottom: 2%;
+}
+.map{
+    margin: 5px;
+    width: 33%;
+}
+@media (max-width:765px){
+    .map{
+        width: 80%;
+    }
+}
+
+
+
+
+
+.content{
+    background-color: #0000;
+    text-align: center;
+    padding-top: 10%;
+    
+    align-items:center;
+}
+.content h3{
+    font-size: 2em;
+    padding-bottom: 0%;
+}
+.content p{
+    width: 50%;
+    font-size:1.1em
+}
+
+.contact{
+    background-color: #000;
+}
+.contact h3, .contact p{
+    color:#fff;
+}
+.contactForm{
+    
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+.contactForm form{
+    width: 100%;
+}
+.contactForm .row100{
+    display: flex;
+    width: 100%;
+}
+.contactForm .row100 .inputbx50{
+    width: 50%;
+    margin: 0 20px;
+
+}
+#inputbx5{
+    width: 100%;
+    
+}
+.contactForm .row100 .inputbx100{
+    width: 100%;
+    margin: 0 20px;
+}
+.contactForm .row100 input, .contactForm .row100 textarea{
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color:#fff;
+    background: transparent;
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 0;
+    resize: none;
+}
+.contactForm .row100 textarea{
+    height: 100px;
+}
+.contactForm .row100 input::placeholder, .contactForm .row100 textarea::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.contactForm .row100 input[type="submit"]{
+    max-width: 100px;
+    cursor:pointer;
+    font-weight:500;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding:10px 15px;
+    color: rgb(255, 166, 0);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.contactForm .row100 input[type="submit"]:hover{
+    color: #fff;
+    background-color: rgb(255, 166, 0);
+    box-shadow: 0 0 10px rgb(255, 166, 0), 0 0 40px rgb(255, 166, 0), 0 0 80px rgb(255, 166, 0);
+}
+
+footer{
+    margin-top: 0%;
+    z-index: 78;
+    border: 1px solid #333;
+}
+.mision, .vision, .redes-sociales{
+    width: 20%;
+    height: 33vh;
+    
+    margin: 1.5%;
+    float: left;
+    color: #fff;
+}
+.redes-sociales{
+    width: 50%;
+    text-align: right;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+@media (max-width:700px){
+    .content h3{
+        font-size: 2em;
+        padding-bottom: 10px;
+    }
+    .content p{
+        width: 90%;
+        font-size:1em
+    }
+    .row100{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .contactForm .row100 .inputbx50, .contactForm .row100 .inputbx100{
+        width: 100%;
+        margin: 0;
+    }
+}

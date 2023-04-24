@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Banco MAC</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <script src="../Scripts/style.js"></script>
+        <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="assets/sss.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="assets/sss.js"></script>
+</head>
+<body>
+    <section class="inicio">
+        <a href="../../project-bankMac.html">Inicio</a>
+    </section>
+    <script>
+        $(document).ready(function() {
+    $('a[href^="#"]').click(function() {
+      var destino = $(this.hash);
+      if (destino.length == 0) {
+          destino = $('a[name="' + this.hash.substr(1) + '"]');
+      }
+      if (destino.length == 0) {
+        destino = $('html');
+      }
+      $('html, body').animate({ scrollTop: destino.offset().top }, 500);
+      return false;
+    });
+  });
+
+    </script>
+        <section class="loading" id="loading">
+       
+            <div class="boxes">
+                <div class="box">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="box">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="box">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="box">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            
+            <!-- dribbble -->
+        </section>
+        <section class="all" id="all">
+
+            <header>
+                
+                <nav class="navbar">
+                    <div class="content">
+                      <div class="logo">
+                        <a href="#">Banco MAC</a>
+                      </div>
+                      <ul class="menu-list">
+                        <div class="icon cancel-btn">
+                          <i class="fas fa-times"></i>
+                        </div>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#quienes">¿Quienes somos?</a></li>
+                        <li><a href="#tarjetas">Tarjetas</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#clientes">Clientes</a></li>
+                      </ul>
+                      <div class="icon menu-btn">
+                        <i class="fas fa-bars"></i>
+                      </div>
+                    </div>
+                  </nav>
+                  <div class="banner"></div>
+                <section class="textos-header" id="inicio">
+                   <section class="text">
+                        
+                        <h1>Banco Guatemalteco MAC</h1>
+                        <h2>La mejor decision para estar seguro</h2>
+                        <input type="submit" value="Leer mas" class="learn">
+                   </section>
+                </section>
+                <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                    style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                        style="stroke: none; fill: #fff;"></path>
+                </svg></div>
+            </header>
+            <main>
+                <section class="contenedor sobre-nosotros" id="quienes">
+                    <h2 class="titulo">¿Quienes Somos?</h2>
+                    <div class="contenedor-sobre-nosotros">
+                        <img src="img/ilustracion4.svg" alt="" class="imagen-about-us">
+                        <div class="contenido-textos">
+                            <h3>1. Matente Seguro</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur doloribus a rem voluptates suscipit cupiditate libero officia commodi quibusdam porro maiores iure exercitationem, eveniet perspiciatis nobis. Neque molestiae nesciunt optio.</p>
+                            <h3>2. La mejor atencion al cliente</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, ex, architecto cumque sed nesciunt veritatis dicta reprehenderit aliquid et sapiente harum deleniti laboriosam sunt dolor officiis quidem, illo modi sequi?</p>
+                        </div>
+                    </div>
+                </section>
+             
+                <section class="comentarios">
+                    <div class="contenedor" id="tarjetas">
+                        <h2 class="titulo">Nuestras tarjetas</h2>
+                        <script>
+                            jQuery(function($){
+                                $('.slider-testimonial').sss({
+                                    slideShow : true,
+                                    speed : 3500
+                                });
+                            });
+                        </script>
+                    
+                        <section class="coments tarjeta" id="tarjetas">
+                          <section class="container-coments">
+                               <div class="wrapper">
+                                <div class="slider-testimonial">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-client">
+                                            <center><img src="img/premium-card.png" alt=""></center>
+                                            <p class="client-name">Tarjeta Premium</p>
+                                        </div>
+                                        <div class="testimonial-text">
+                                            <p>Con esta tarjeta puedes tener descuentos especiales en diferentes tiendas hasta un 30%</p>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-client">
+                                            <center><img src="img/credit-card.png" alt=""></center>
+                                            <p class="client-name">Tarjeta de credito</p>
+                                        </div>
+                                        <div class="testimonial-text">
+                                            <p>Puedes tener millas ilimitadas mas un 25% de descuento en todos supermercados como tal.</p>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-client">
+                                            <center><img src="img/debit-card.png" alt=""></center>
+                                            <p class="client-name">Tarjeta de Debito</p>
+                                        </div>
+                                        <div class="testimonial-text">
+                                            <p>0% de intereses al adquirirla incluye una devolucion de lo comprado un 26%</p>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-client">
+                                            <center><img src="img/prepago-card.png" alt=""></center>
+                                            <p class="client-name">Tarjeta de Prepago</p>
+                                        </div>
+                                        <div class="testimonial-text">
+                                            <p>Puedes realizar recargas en tu telefonia favorita con un descuento del 35%</p>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-client">
+                                            <center><img src="img/virtual-card.png" alt=""></center>
+                                            <p class="client-name">Tarjeta Virtual</p>
+                                        </div>
+                                        <div class="testimonial-text">
+                                            <p>La mejor manera de realizar compras en linea, al realizar compras tiene una devolucion del 22% de lo comprado</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </section>
+                        </section>
+                        
+        
+                <section class="clientes contenedor" id="clientes">
+                    <h2 class="titulo">Que dicen nuestros clientes</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="img/face2.jpg" alt="">
+                            <div class="contenido-texto-card">
+                                <h4>Maria Fernanda</h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa nemo deserunt modi architecto et, obcaecati alias i</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="img/client.png" alt="">
+                            <div class="contenido-texto-card">
+                                <h4>Santiago Hernandez</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nam corporis illum eos esse beatae accusamus alias impedit laboriosam odit officia obcaecati tenetur, sed, minima quibusdam amet. Illum, fugit accusamus!</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        
+        
+                <section class="about-services" id="servicios">
+                    <div class="contenedor">
+                        <h2 class="titulo">Nuestros servicios</h2>
+                        <div class="servicio-cont">
+                            <div class="servicio-ind">
+                                <img src="img/ilustracion1.svg" alt="">
+                                <h3>Seguridad</h3>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, velit tempora vero ratione animi delectus ipsa dolore voluptas excepturi dignissimos id sunt sequi quo vitae aliquid voluptate asperiores, doloribus repellendus.</p>
+                            </div>
+                            <div class="servicio-ind">
+                                <img src="img/ilustracion2.svg" alt="">
+                                <h3>Servicio al cliente</h3>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur modi, vitae nobis molestias sunt accusantium blanditiis quis ab optio sequi nemo natus cum id provident voluptatem sint mollitia in. Quasi.</p>
+                            </div>
+                            <div class="servicio-ind">
+                                <img src="img/ilustracion4.svg" alt="">
+                                <h3>Los mejores planes</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi illum aliquid numquam a ipsum maxime non, natus omnis perferendis, dolorum ab autem culpa officia nemo? Nihil accusamus eos soluta iste.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="foooter-container">
+                    <div class="row">
+                        <div class="footer-content">
+                            <h4>Mision</h4>
+                            <ul>
+                                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa nemo deserunt modi architecto et, obcaecati alias i</p>
+                            </ul>
+                        </div>
+                        <div class="footer-content">
+                            <h4>Vision</h4>
+                            <ul>
+                                <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum et doloribus, deleniti eos dolorum, esse architecto voluptatem deserunt </p>
+                                
+                            </ul>
+                        </div>
+                        <div class="footer-content">
+                            <h4>Obtener ayuda</h4>
+                            <ul>
+                                <li><a href="#">Contactanos</a></li>
+                                <li><a href="#">Inicio</a></li>
+                                <li><a href="#">Tarjetas</a></li>
+                                <li><a href="#">¿Necesitas ayuda?</a></li>
+                            </ul>
+                        </div>
+                       
+                        <div class="footer-content">
+                            <h4>Siguenos</h4>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Copyrigth &copy; 2021</h2>
+           </footer>
+        </section>
+</body>
+
+</html>
+<script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+    window.onscroll = ()=>{
+      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+  </script>

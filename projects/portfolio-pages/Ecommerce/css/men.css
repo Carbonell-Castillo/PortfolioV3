@@ -1,0 +1,45 @@
+#men, #kids, #woman{
+    background-color: #fff;
+    color: #000;
+}
+#men{
+    background-color: #000;
+    color: #fff;
+}
+.headerCard1{
+    background-image: url("../images/men/ropa1.jpg");
+
+}
+.headerCard2{
+    background-image: url("../images/men/ropa2.jpg");
+}
+.headerCard3{
+    background-image: url("../images/men/ropa3.jpg");
+}
+ .headerCard4{
+    background-image: url("../images/men/ropa4.jpg");
+}
+.headerCard5{
+    background-image: url("../images/men/ropa5.jpg");
+}
+.headerCard6{
+    background-image: url("../images/men/ropa6.jpg");
+}
+.headerCard7{
+    background-image: url("../images/men/ropa7.jpg");
+}
+.headerCard8{
+    background-image: url("../images/men/ropa8.jpg");
+}
+.headerCard9{
+    background-image: url("../images/men/ropa9.jpg");
+}
+.headerCard10{
+    background-image: url("../images/men/ropa10.jpg");
+}
+.headerCard11{
+    background-image: url("../images/men/ropa11.jpg");
+}
+.headerCard12{
+    background-image: url("../images/men/ropa12.jpg");
+}

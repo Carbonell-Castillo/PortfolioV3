@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+      <link rel="stylesheet" href="../css/home.css">
+      <link rel="stylesheet" href="../css/cargando.css">
+</head>
+<body>
+  <header class="headerNavegacion">
+    <section class="Base_perfil">
+      <h5>Bruce Castillo</h5>
+      <img src="../images/Perfil/perfil.jpg" alt="" class="perfil">
+    </section>
+  </header>
+  
+  <!-- Barra de navegacion -->
+  <div class="nav-bar">
+    <div class="task-pane">
+        <span class="circle red"></span>
+        <span class="circle yellow"></span>
+        <span class="circle green"></span>
+    </div>
+    <div class="brand-icon">
+        <i class="fab fa-autoprefixer"></i>
+        <span class="brand-text">Menu</span>
+    </div>
+    <div class="search-bar">
+        <i class="fab fa-search"></i>
+        <input type="text" name="search" placeholder="Search">
+    </div>
+    <div class="arrow">
+        <i class="fas fa-chevron-left"></i>
+    </div>
+    <div class="nav-links">
+        <div class="nav-link" onclick="direccionar('home')">
+            <i class="fas fa-home"></i>
+            <span class="nav-link-name">Home</span>
+        </div>
+        <div class="nav-link"  onclick="direccionar('DatosAlumnos')">
+            <i class="fas fa-poll"></i>
+            <span class="nav-link-name">Ingresar Alumnos</span>
+        </div>
+        <div class="nav-link" onclick="direccionar('IngresoNotas')">
+            <i class="fas fa-bullhorn"></i>
+            <span class="nav-link-name" >Ingresar Notas</span>
+        </div>
+        <div class="nav-link" onclick="direccionar('VisualizarNotas')">
+            <i class="fas fa-list"></i>
+            <span class="nav-link-name">Visualizar Notas</span>
+        </div>
+        <div class="nav-link" onclick="direccionar('VisualizarAlummnos')">
+          <i class="fas fa-list"></i>
+          <span class="nav-link-name">Visualizar Alumnos</span>
+      </div>
+      <div class="nav-link" onclick="direccionar('CerrarSesion')">
+        <i class="fas fa-list"></i>
+        <span class="nav-link-name">Cerrar Sesion</span>
+    </div>
+    </div>
+</div>
+
+
+<!-- Animacion Cargando -->
+
+
+
+<div class="main" id="cargando">
+	<span class="spanMain"></span>
+	<span class="spanMain"></span>
+	<span class="spanMain"></span>
+	<span class="spanMain"></span>
+	<span class="spanMain"></span>
+	<span class="spanMain"></span>
+    <span class="spanMain"></span>
+	<span class="spanMain"></span>
+	<span class="spanMain"></span>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="jumbotron hide" id="base">
+  <h4>Welcome back! 👋</h4><br>
+  <h2>¿Que deseas hacer?</h2><br>
+  <a class="card" onclick="direccionar('DatosAlumnos')">
+    <header class="headerCard1"></header> 
+   <div class="content"> 
+       <h3>Ingresar Alumnos</h3> 
+   </div> 
+   <span class="read-more">Ingresar</span>
+</a>
+<a class="card" onclick="direccionar('IngresoNotas')">
+   <header class="headerCard2"></header> 
+  <div class="content"> 
+      <h3>Ingresar Notas...</h3> 
+  </div> 
+  <span class="read-more">Ingresar</span>
+</a>
+<a class="card" onclick="direccionar('VisualizarNotas')">
+  <header class="headerCard3"></header> 
+ <div class="content"> 
+     <h3>Visualizar Notas</h3> 
+ </div> 
+ <span class="read-more">Ingresar</span>
+</a>
+<a class="card" onclick="direccionar('VisualizarAlummnos')">
+  <header class="headerCard4"></header> 
+ <div class="content"> 
+     <h3>Visualizar Alummnos</h3> 
+ </div> 
+ <span class="read-more">Ingresar</span>
+</a>
+</div>
+
+<!-- Ingreso de alumnos -->
+
+<div class="jumbotron hide" id="DatosAlumno">
+  <br>
+  <h2 class="ml-3">Ingrese los datos del Alumno</h2>
+  <br>
+  <div class="row">
+    <div class="col-sm-6">
+      <label for="Nombre">Nombre: </label>
+      <input type="text" class="form-control datos" id="nombre">
+      <label for="Carrera">Carrera:</label>
+      <select name="" id="Carrera" class="form-control datos">
+        <option value="">Carrera</option>
+        <option>BACO</option>
+        <option>ADMO</option>
+        <option>BACi</option>
+     <option>Mercadotecnia</option>
+     <option>Pertio Contador</option>
+    </select>
+    </div>
+    <div class="col-sm-6">
+      <label for="Apellido">Apellido:</label>
+      <input type="text" class="form-control datos" id="Apellidos">  
+      <label for="Apellido">Carnet</label>
+      <input type="number" class="form-control datos" id="carnet">  
+    </div>
+  </div><br><br>
+<center>
+    <button class="btn btn-success almacenar" id="AlmacenarUsuario" onclick="AlmacenarUsuario()">Almacenar</button>
+</center></div>
+
+
+<!-- Ingreso Notas -->
+<div class="jumbotron hide" id="IngresoNotas"><br>
+  <h2>Ingrese las Notas</h2>
+  <button class="btn btn-success" onclick="ActualizarListado()">Actulizar Listado</button>
+    <div class="row">
+      <div class="col-sm-6">
+        <label for="Nombre">Nombre:</label>
+        <select name="" id="NombresAlumnosNotas" class="form-control datos">
+        </select><br>
+        <label for="Primer Bimestre">Primer Bimestre:</label>
+        <input type="number" class="form-control datos" id="PrimerBimestre">
+        <label for="Primer Bimestre">Segundo Bimestre:</label>
+        <input type="number" class="form-control datos" id="SegundoBimestre">
+        <label for="Primer Bimestre">Tercero Bimestre:</label>
+        <input type="number" class="form-control datos" id="TercerBimestre">
+        <label for="Primer Bimestre">Cuarto Bimestre:</label>
+        <input type="number" class="form-control datos" id="CuartoBimestre"><br>
+<center>
+          <button class="btn btn-success almacenar" onclick="ingresarDatos()">Ingresar</button>
+
+</center>
+      </div>
+      <div class="col-sm-6">
+      <section class="PrevDatos" id="PrevDatos">
+          <h3>Datos: </h3><br>
+          <p id="pevNombre">Nombre: </p>        
+          <p id="pevPromedio">Promedio:</p>
+          <h6>¿Estas seguro que deseas almacenarlos?</h6><br>
+          <button class="btn btn-primary" onclick="AlmacenarNotas()">Almacenar</button>
+      </section>
+      </div>
+    </div>
+</div>
+
+<!-- Previsualizacion Usuarios -->
+
+  <div class="jumbotron" id="BaseUsuarios"><br>
+    <h2>Visualizacion Alumnos</h2>
+    <br>
+    <button class="btn btn-success" onclick="actualizar()">Actualizar</button><br><br>
+    <table class="table table-hover" id="tabladatos">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Apellido</th>
+          <th scope="col">Carrera</th>
+          <th scope="col">Carnet</th>
+        </tr>
+      </thead>
+      <tbody id="DatosUsuarios">
+     
+      </tbody>
+    </table>
+  </div>
+
+
+
+  <!-- Notas usuarios -->
+<div class="jumbotron" id="BaseNotas">
+<br>
+<h2>Visualizacion Notas</h2><br>
+<button class="btn btn-success" onclick="ActualizarNotas()">Actualizar</button><br><br>
+<table class="table table-hover">
+<thead class="thead-dark">
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Nombre</th>
+    <th scope="col">Primer Bimestre</th>
+    <th scope="col">Segundo Bimestre</th>
+    <th scope="col">Tercer Bimestre</th>
+    <th scope="col">Cuarto Bimestre</th>
+    <th scope="col">Promedio</th>
+  </tr>
+</thead>
+<tbody id="DatosNotas">
+
+</tbody>
+</table>
+</div>
+
+</body>
+</html>
+<script>
+    let arrow= document.querySelector('.arrow');
+    let nav_bar=document.querySelector('.nav-bar');
+
+    arrow.addEventListener("click", ()=>{
+        nav_bar.classList.toggle("extended");
+    });
+</script>
+<script src="../JavaScript/style.js"></script>
+<script src="../JavaScript/logic.js"></script>

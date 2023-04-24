@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+      <script src="../Scripts/style.js"></script>
+        <link rel="stylesheet" href="css/loading.css">
+      <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section class="inicio">
+        <a href="../../project-DevForYou.html">Inicio</a>
+    </section>
+    <script>
+        window.addEventListener("scroll", function(){
+        let header = document.querySelector("header");
+        header.classList.toggle("sticky",  window.scrollY > 2);
+    })
+    function toggle(){
+        let header = document.querySelector("header");
+        header.classList.toggle("active");
+    }
+
+    //Cambio de imagen slider
+
+    function imgSlider(anything){
+            document.getElementById("slider").src= anything
+        }
+        </script>
+        <section class="loading" id="loading">
+       
+            <div class="boxes">
+                <div class="box">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="box">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="box">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="box">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            
+            <!-- dribbble -->
+        </section>
+        <section class="all" id="all">
+
+            <header id="header">
+                <a href="#" class="logo">DFY</a>
+                <ul>
+                    <li><a href="#home" onclick="toggle()">Inicio</a></li>
+                    <li><a href=#nosotros onclick="toggle()">Nosotros</a></li>
+                    <li><a href="#pack" onclick="toggle()">Paquetes</a></li>
+                    <li><a href="#" onclick="toggle()">Iniciar Sesion</a></li>
+                </ul>
+                <div class="toggle" onclick="toggle()"></div>
+            </header>
+        <div class="jumbotron" id="home">
+            <div class="row" id="tab-home">
+                <div class="col-sm-6"><h2 class="text-white">Developers <span>For you</span></h2>
+                    <p> "Alimentamos tus sueños digitales, llevando tu negocio al futuro"</p>
+                    <a href="indexA.html" class="more">Leer mas</a>
+                </div>
+                <div class="col-sm-6"><section class="imas-home"></section></div>
+            </div>
+            <div class="overlay">
+                <span></span>
+                <span></span>
+                </div>
+        </div>
+        <!---Especialidades-->
+        <main>
+        <div class="container" id="base">
+            <h1 class="text-center">Especialidades</h1><br>
+           <center>
+                <div class="row">
+                    <div class="col-sm-4">
+                     <section class="especialidades animado"><br>
+                         <img src="images/fronted.png" alt="" srcset=""><br><br>
+                        <h3 class="text-center">Fronted</h3>
+                        <p>Desarrollando las mejores interfacez para el cliente, optimizando y a la misma vez rompiendo los esquemas basicos de desarrollo web utilizando: HTML, CSS, JavaScript, Bootstrap, Node.js, UI Design y muchos más.</p>
+    
+                     </section>
+                    </div>
+                    <div class="col-sm-4">
+                        <section class="especialidades animado"><br>
+                            <img src="images/backend.png" alt=""><br><br>
+                            <h3>Backend</h3>
+                            <p>Masterizando los lenguajes de mas alta concurrencia, organizando y concretando las mejores maneras de manipulacion de datos utilizando php,java y proximamente muchos más</p>
+    
+                            </p>
+                        </section>
+                    </div>
+                    <div class="col-sm-4">
+                        <section class="especialidades animado"><br>
+                            <img src="images/mantenimiento.png" alt=""><br><br>
+                            <h3>Mantenimiento</h3>
+                          <p>Manejo total de distribucion de redes, proveyendo de la manera mas practica la comunicacion entre cliente y desarrollador, ofreciendo el mejor servicio al cliente y claro mantenimiento.</p>
+                        </section>
+                    </div>
+                </div>
+           </center>
+        </div>
+    
+        <!---nosotros-->
+    
+        <div class="jumbotron" id="nosotros">
+                <div class="container">
+                   <center><br><br>
+                        <div class="row">
+                            <div class="col-sm-6">
+                              <section class="animado2">  <img src="images/somos.svg" alt=""></section>
+                            </div>
+                            <div class="col-sm-6">
+                               <section class="animado2">
+                                    <h1>¿Quienes Somos?</h1><br>
+                                    <p>Developers for you fue una idea nacida de jovenes emprendedores para la solucionar los problemas que tienen
+                                        cualquier institucion o persona al momento de querrer llevar su negocio al ambito web, ayudando asi
+                                         a que nuestros clientes se modernizen y se sientan mas comodos al dar este gran paso.
+                                         Sabemos que el emprender un negocio es dificil, pero el hecho de adaptarse a un mercado totalmente nuevo es algo aterrante,
+                                        por eso una de nuestras especialidades es lograr esa comunicacion unica con cada cliente, obteniendo asi la confianza del cliente y claramente su satisfaccion.</p>
+    
+                               </section>
+                            </div>
+                        </div>
+                   </cente>
+                </div>
+        </div>
+          <div class=" paginas">
+                <h1 class="text-center ">Algunas de nuestras paginas</h1>
+         <div class="container">
+                
+                <section class="cards animadoPack">
+                    <img src="images/page1.PNG" alt="">
+                     <section class="cards-body">
+                       <h5 class="card-title">page</h5>
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur </p>
+                       <h6 class="text-green">Costo: <small>4532</small></h6>
+                       <form action="vista-previa2.php" method="POST"><br>
+                       <center> <button type="submit" class="btn btn-primary btn-sm"> Ver vista previa</button></center>
+                       </form>
+                       </section>
+                       </section>
+                       <section class="cards animadoPack">
+                        <img src="images/page1.PNG" alt="">
+                         <section class="cards-body">
+                           <h5 class="card-title">page</h5>
+                           <p class="card-text">Lorem ipsum dolor sit amet consectetur </p>
+                           <h6 class="text-green">Costo: <small>4532</small></h6>
+                           <form action="vista-previa2.php" method="POST"><br>
+                           <center> <button type="submit" class="btn btn-primary btn-sm"> Ver vista previa</button></center>
+                           </form>
+                           </section>
+                           </section>
+                           <section class="cards animadoPack">
+                            <img src="images/page1.PNG" alt="">
+                             <section class="cards-body">
+                               <h5 class="card-title">page</h5>
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur </p>
+                               <h6 class="text-green">Costo: <small>4532</small></h6>
+                               <form action="vista-previa2.php" method="POST"><br>
+                               <center> <button type="submit" class="btn btn-primary btn-sm"> Ver vista previa</button></center>
+                               </form>
+                               </section>
+                               </section>
+                            </div>
+                            <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                              style="height: 100%; width: 100%;">
+                              <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                                  style="stroke: none; fill: rgb(1, 111, 255);"></path>
+                          </svg></div>
+          </div>
+          <div class="container" id="pack">
+              
+              <div class="row" id="tab-paquetes">
+                <div class="col-sm-4">
+                    <section class="paquetes animado3">
+                        <img src="images/basico.svg" alt=""><br>
+                        <h2>Paquete Basico</h2>
+                        <p>Para aquello comerciantes que estan por modernizar su negocio a la web, o simplemente para aquellos que quieran darse a conocer</p>
+                      <center>
+                            <span style="color: #646161;">Incluye Dominio Gratuito, no incluye hosting, personalizacion basica, unicamente informativa y de 1 a 2 subpaginas</span><br/>
+                      <a href="pages/paquetes-basicos.php"> <button type="button" class="btn btn-success">Ver</button></a>
+                      </center>
+                    </section>
+                </div>
+                <div class="col-sm-4">
+                    <section class="paquetes resaltado animado3">
+                        <img src="images/Medium.svg" alt=""><br>
+                        <h2>Paquete Premium personalizable</h2>
+                        <p>Diseñado para aquellos que conocen el mundo digital de una manera muy sutil</p>
+                      <center>
+                            <span>Incluye Dominio Gratuito,incluye hosting el primer mes, personalizacion dedicada y UI design, unicamente informativa y de 1 a 6 subpaginas</span><br/>
+                         <a href="pages/paquetes-medium.php"><button type="button" class="btn btn-success">Ver</button></a>
+    
+                      </center>
+                    </section>
+    
+                </div>
+                <div class="col-sm-4">
+                    <section class="paquetes animado3">
+                        <center>
+                        <img src="images/premium.jpg" alt="" id="premium"><br>
+                        <h2>Paquete Corporativo</h2>
+                    <p>Desarrollo total de la idea del cliente, especializacion en proyectos a gran escala, plataformas de todo tipo.</p>
+                        <span style="color: #646161;">Incluye Dominio, hosting, personalizacion dedicada, UI design, manejo de bases de datos, diseño de algoritmos y numero ilimitado de subpaginas</span><br/>
+               <a href="pages/paquetes-premium.php"> <button type="button" class="btn btn-success">Ver</button></a>
+    
+                      </center>
+                    </section>
+                </div>
+            </div>
+          </div>
+        </main>
+    
+    
+    
+          <div class="" id="contact">
+            <h1 class="text-center text-white">Contactanos</h1>
+            <center>
+                <p class="text-white text-center">No dudes en informarnos de tu idea</p>
+                <form action="email.php">
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="inputEmail4" placeholder="Nombre Completo" required>
+                          </div>
+                          <div class="form-group col-md-6">
+                            <input type="email" class="form-control" id="inputPassword4" placeholder="Email" required>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <input type="number" class="form-control" id="inputAddress" placeholder="Numero de telefono" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" aria-label="With textarea" placeholder="Mensaje" required></textarea>
+                        </div>
+                        <div class="form-row">
+    
+    
+                        </div>
+                        <button type="submit" class="enviar">Enviar</button>
+                </form>
+            </center>
+        </div>
+        </section>
+</body>
+</html>

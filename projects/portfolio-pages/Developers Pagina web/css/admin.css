@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+aside{
+    width:17%;
+    height: 250vh;
+    float: left;
+    background-color: #222;
+}
+aside ul li{
+    width: 100%;
+    height: 8vh;
+    margin-top: 5%;
+    padding: 5%;
+    outline: none;
+    color: #fff;
+
+}
+#inicio{
+    display: block;
+}
+#usuario, #datos, #paquetes{
+    display: none;
+
+}
+aside ul li a{
+    outline: none;
+    color: #fff;
+}
+aside ul li:hover{
+    cursor: pointer;
+    color: red;
+}
+aside ul li{
+    text-align: center;
+}
+#datos form{
+    margin-top: 3%;
+    margin-left: 12%;
+}
+#descuento{
+    display: none;
+}
+#basico, #medium, #premium{
+    display:none;
+    margin-top: 2%;
+    width:97%;
+    margin-left: 1.5%;
+}
+#descripcion, #detalles, #numero, #costo, #promociones, #descuento{
+    margin-top: 2%;
+    width:97%;
+    margin-left: 1.5%;
+}
+#archivos{
+    margin-top: 3%;
+}
+#tabla{
+    width:90%;
+    margin-left: 15%;
+}

@@ -1,0 +1,45 @@
+#men, #kids, #woman{
+    background-color: #fff;
+    color: #000;
+}
+#woman{
+    background-color: #000;
+    color: #fff;
+}
+.headerCard1{
+    background-image: url("../images/woman/ropa11.jpg");
+
+}
+.headerCard2{
+    background-image: url("../images/woman/ropa2.jpg");
+}
+.headerCard3{
+    background-image: url("../images/woman/ropa3.jpg");
+}
+ .headerCard4{
+     background-image: url("../images/woman/ropa4.jpg");
+    }
+.headerCard5{
+    background-image: url("../images/woman/ropa1.jpg");
+}
+.headerCard6{
+    background-image: url("../images/woman/ropa6.jpg");
+}
+.headerCard7{
+    background-image: url("../images/woman/ropa7.jpg");
+}
+.headerCard8{
+    background-image: url("../images/woman/ropa12.jpg");
+}
+.headerCard9{
+    background-image: url("../images/woman/ropa9.jpg");
+}
+.headerCard10{
+    background-image: url("../images/woman/ropa10.jpg");
+}
+.headerCard11{
+    background-image: url("../images/woman/ropa5.jpg");
+}
+.headerCard12{
+    background-image: url("../images/woman/ropa8.jpg");
+}
