@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /*-----------------------------------------------------------
 
-Template Name: BlackDsn - Ajax Portfolio HTML Template
-  Template URI: http://theme.dsngrid.com/blackdsn
-  Description: BlackDsn Ajax Portfolio Showcase HTML Template
+Template Name: DevCarbonell - Ajax Portfolio HTML Template
+  Template URI: http://theme.dsngrid.com/DevCarbonell
+  Description: DevCarbonell Ajax Portfolio Showcase HTML Template
   Author: design_grid
   Author URI: https://themeforest.net/user/design_grid
   Version: 1.0.0
@@ -2549,7 +2549,7 @@ a:hover, a:active {
 .dsn-posts .metas > span:not(:last-of-type)::after {
   content: attr(data-separator);
 }
-.dsn-style-cards .dsn-posts:not(.box-image-blackdsn) .post-content {
+.dsn-style-cards .dsn-posts:not(.box-image-DevCarbonell) .post-content {
   position: absolute;
   padding: 50px 30px;
   width: 100%;
@@ -2613,20 +2613,20 @@ a:hover, a:active {
 .dsn-style-cards .dsn-posts.box-image-hover .post-content {
   width: 100%;
 }
-.dsn-style-cards .dsn-posts.box-image-blackdsn {
+.dsn-style-cards .dsn-posts.box-image-DevCarbonell {
   counter-reset: workcounter;
 }
-.dsn-style-cards .dsn-posts.box-image-blackdsn .box-image-bg {
+.dsn-style-cards .dsn-posts.box-image-DevCarbonell .box-image-bg {
   height: 70vh;
 }
-.dsn-style-cards .dsn-posts.box-image-blackdsn .box-image-link {
+.dsn-style-cards .dsn-posts.box-image-DevCarbonell .box-image-link {
   position: relative;
 }
-.dsn-style-cards .dsn-posts.box-image-blackdsn .box-content {
+.dsn-style-cards .dsn-posts.box-image-DevCarbonell .box-content {
   flex-direction: column;
   padding-left: 50px;
 }
-.dsn-style-cards .dsn-posts.box-image-blackdsn .box-content:before {
+.dsn-style-cards .dsn-posts.box-image-DevCarbonell .box-content:before {
   counter-increment: workcounter;
   position: absolute;
   top: 4px;
@@ -2639,17 +2639,17 @@ a:hover, a:active {
   padding: 15px;
   background-color: var(--assistant-color);
 }
-.dsn-style-cards .dsn-posts.box-image-blackdsn .box-content .post-title {
+.dsn-style-cards .dsn-posts.box-image-DevCarbonell .box-content .post-title {
   padding-left: 20px;
   padding-bottom: 15px;
 }
-.dsn-style-cards .dsn-posts.box-image-blackdsn .box-content .post-title-info {
+.dsn-style-cards .dsn-posts.box-image-DevCarbonell .box-content .post-title-info {
   display: flex;
   flex-direction: column;
   align-items: end;
   padding-top: 20px;
 }
-.dsn-style-cards .dsn-posts.box-image-blackdsn .box-content .dsn-post-link {
+.dsn-style-cards .dsn-posts.box-image-DevCarbonell .box-content .dsn-post-link {
   position: absolute;
   left: -50px;
   bottom: 10px;
@@ -2661,17 +2661,17 @@ a:hover, a:active {
   color: var(--heading-color);
   text-transform: uppercase;
 }
-.dsn-style-cards .dsn-posts.box-image-blackdsn .dsn-swiper a.box-image-link {
+.dsn-style-cards .dsn-posts.box-image-DevCarbonell .dsn-swiper a.box-image-link {
   pointer-events: none;
 }
 @media only screen and (max-width: 767px) {
-  .dsn-style-cards .dsn-posts.box-image-blackdsn .box-content {
+  .dsn-style-cards .dsn-posts.box-image-DevCarbonell .box-content {
     padding-left: 0;
   }
-  .dsn-style-cards .dsn-posts.box-image-blackdsn .box-content .post-title-info {
+  .dsn-style-cards .dsn-posts.box-image-DevCarbonell .box-content .post-title-info {
     padding-right: 20px;
   }
-  .dsn-style-cards .dsn-posts.box-image-blackdsn .box-content .dsn-post-link, .dsn-style-cards .dsn-posts.box-image-blackdsn .box-content:before {
+  .dsn-style-cards .dsn-posts.box-image-DevCarbonell .box-content .dsn-post-link, .dsn-style-cards .dsn-posts.box-image-DevCarbonell .box-content:before {
     display: none;
   }
 }
@@ -4073,11 +4073,11 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
   top: 0;
 }
 
-.blackdsn-media-swiper .content {
+.DevCarbonell-media-swiper .content {
   width: 80px;
   z-index: 3;
 }
-.blackdsn-media-swiper .content a {
+.DevCarbonell-media-swiper .content a {
   border-radius: 50%;
 }
 
@@ -5242,7 +5242,7 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
 .woocommerce .woocommerce-ordering {
   margin-bottom: 30px;
 }
-.woocommerce .blackdsn-product-image {
+.woocommerce .DevCarbonell-product-image {
   overflow: hidden;
   width: 100%;
 }
@@ -5252,22 +5252,22 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
   display: flex;
   align-items: center;
 }
-.woocommerce ul.dsn-shop.products.list li.product .blackdsn-product-image {
+.woocommerce ul.dsn-shop.products.list li.product .DevCarbonell-product-image {
   flex: 0 0 25%;
   max-width: 25%;
 }
-.woocommerce ul.dsn-shop.products.list li.product .blackdsn-product-content {
+.woocommerce ul.dsn-shop.products.list li.product .DevCarbonell-product-content {
   flex: 0 0 75%;
   max-width: 75%;
   margin-left: 30px;
   text-align: left;
 }
-.woocommerce ul.dsn-shop.products.list li.product .blackdsn-product-content .woocommerce-product-details__short-description {
+.woocommerce ul.dsn-shop.products.list li.product .DevCarbonell-product-content .woocommerce-product-details__short-description {
   display: block;
   margin-top: 5px;
   margin-bottom: 15px;
 }
-.woocommerce ul.dsn-shop.products li.product .onsale.dsn-blackdsn-sale {
+.woocommerce ul.dsn-shop.products li.product .onsale.dsn-DevCarbonell-sale {
   position: absolute;
   display: inline-block;
   top: 10px;
@@ -5288,11 +5288,11 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
   box-shadow: 0 2px 5px 0 #DA3F3F;
   z-index: 10;
 }
-.woocommerce ul.dsn-shop.products li.product .onsale.dsn-blackdsn-sale .number {
+.woocommerce ul.dsn-shop.products li.product .onsale.dsn-DevCarbonell-sale .number {
   margin-bottom: 2px;
   font-size: 16px;
 }
-.woocommerce ul.dsn-shop.products li.product .onsale.dsn-blackdsn-sale .number sup {
+.woocommerce ul.dsn-shop.products li.product .onsale.dsn-DevCarbonell-sale .number sup {
   position: relative;
   top: -3px;
   left: -4px;
@@ -5314,7 +5314,7 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
 .woocommerce ul.dsn-shop.products li.product .button.added:after {
   display: none;
 }
-.woocommerce ul.dsn-shop.products li.product > *:not(.blackdsn-product-image, a) {
+.woocommerce ul.dsn-shop.products li.product > *:not(.DevCarbonell-product-image, a) {
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -5339,7 +5339,7 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
 .woocommerce ul.dsn-shop.products li.product .dsn-quick-view .icon-view svg {
   transform: translateY(-20px);
 }
-.woocommerce ul.dsn-shop.products li.product .blackdsn-product-content {
+.woocommerce ul.dsn-shop.products li.product .DevCarbonell-product-content {
   width: 100%;
 }
 .woocommerce ul.dsn-shop.products li.product .woocommerce-loop-product__title {
@@ -5475,7 +5475,7 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
       Tabs
    */
 }
-.woocommerce .dsn-blackdsn.dsn-single-product {
+.woocommerce .dsn-DevCarbonell.dsn-single-product {
   padding-top: 180px;
   padding-bottom: 100px;
 }
@@ -5551,7 +5551,7 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
 .woocommerce div.product .dsn-price ins, .woocommerce div.product .dsn-price bdi {
   color: var(--heading-color);
 }
-.woocommerce .onsale.dsn-blackdsn-sale {
+.woocommerce .onsale.dsn-DevCarbonell-sale {
   position: absolute;
   display: inline-block;
   top: 10px;
@@ -5571,11 +5571,11 @@ ul.intro-project-list li h5.title-list-project + p.description-list-project {
   box-shadow: 2px 2px 5px 0 var(--assistant-color);
   z-index: 1;
 }
-.woocommerce .onsale.dsn-blackdsn-sale .number {
+.woocommerce .onsale.dsn-DevCarbonell-sale .number {
   margin-bottom: 2px;
   font-size: 16px;
 }
-.woocommerce .onsale.dsn-blackdsn-sale .number sup {
+.woocommerce .onsale.dsn-DevCarbonell-sale .number sup {
   position: relative;
   top: -3px;
   left: -4px;

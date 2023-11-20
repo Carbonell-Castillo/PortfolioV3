@@ -16,7 +16,7 @@ const dsnParam = {
     smoothTouch: false,
     mouseMultiplier: 1
   },
-  name: "BLACKDSN"
+  name: "DevCarbonell"
 };
 
 (function ($) {
